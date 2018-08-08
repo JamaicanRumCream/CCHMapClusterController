@@ -12,6 +12,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '7.0'
   spec.osx.deployment_target = '10.9'
+  spec.tvos.deployment_target = '10.0'
 
   spec.source_files = 'CCHMapClusterController/*.{h,m}'
   spec.private_header_files = 'CCHMapClusterController/{CCHMapTree,CCHMapTreeUtils,CCHMapClusterControllerUtils,CCHMapClusterControllerDebugPolygon,CCHMapClusterOperation,CCHMapViewDelegateProxy}.h'

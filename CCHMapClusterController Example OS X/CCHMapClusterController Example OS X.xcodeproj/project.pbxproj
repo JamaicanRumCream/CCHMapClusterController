@@ -21,6 +21,7 @@
 		48D06BDF18466FF4005AC9C7 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D06BDB18466FF4005AC9C7 /* CCHMapViewDelegateProxy.m */; };
 		48D06BE11846732B005AC9C7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D06BE01846732B005AC9C7 /* CoreLocation.framework */; };
 		48D06BEA184673E0005AC9C7 /* DataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D06BE6184673E0005AC9C7 /* DataReader.m */; };
+		5F398F69211B7C2B00FB0B13 /* CCHMapClusterController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5F398F68211B7C2B00FB0B13 /* CCHMapClusterController.podspec */; };
 		6217D6D418BDD82200CDB8C3 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217D6D318BDD82200CDB8C3 /* CCHMapClusterControllerDebugPolygon.m */; };
 		6217D70318BDD98E00CDB8C3 /* CCHCenterOfMassMapClustererTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217D6F918BDD98E00CDB8C3 /* CCHCenterOfMassMapClustererTests.m */; };
 		6217D70418BDD98E00CDB8C3 /* CCHFadeInOutMapAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6217D6FA18BDD98E00CDB8C3 /* CCHFadeInOutMapAnimatorTests.m */; };
@@ -88,6 +89,7 @@
 		48D06BE5184673E0005AC9C7 /* DataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataReader.h; path = "../../CCHMapClusterController Example iOS/CCHMapClusterController Example iOS/DataReader.h"; sourceTree = "<group>"; };
 		48D06BE6184673E0005AC9C7 /* DataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataReader.m; path = "../../CCHMapClusterController Example iOS/CCHMapClusterController Example iOS/DataReader.m"; sourceTree = "<group>"; };
 		48D06BE7184673E0005AC9C7 /* DataReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataReaderDelegate.h; path = "../../CCHMapClusterController Example iOS/CCHMapClusterController Example iOS/DataReaderDelegate.h"; sourceTree = "<group>"; };
+		5F398F68211B7C2B00FB0B13 /* CCHMapClusterController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CCHMapClusterController.podspec; path = ../CCHMapClusterController.podspec; sourceTree = "<group>"; };
 		6217D6D218BDD82200CDB8C3 /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
 		6217D6D318BDD82200CDB8C3 /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
 		6217D6F918BDD98E00CDB8C3 /* CCHCenterOfMassMapClustererTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHCenterOfMassMapClustererTests.m; path = "../../CCHMapClusterController Tests/CCHCenterOfMassMapClustererTests.m"; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				62D667661845E0BA0046D5D5 /* CCHMapClusterController Example OS XTests */,
 				62D667411845E0BA0046D5D5 /* Frameworks */,
 				62D667401845E0BA0046D5D5 /* Products */,
+				5F398F68211B7C2B00FB0B13 /* CCHMapClusterController.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -399,6 +402,7 @@
 				62D6674D1845E0BA0046D5D5 /* InfoPlist.strings in Resources */,
 				62D6675B1845E0BA0046D5D5 /* Images.xcassets in Resources */,
 				485EDD001876E95B008F0323 /* Berlin-Data.json in Resources */,
+				5F398F69211B7C2B00FB0B13 /* CCHMapClusterController.podspec in Resources */,
 				62D667531845E0BA0046D5D5 /* Credits.rtf in Resources */,
 				62D667591845E0BA0046D5D5 /* MainMenu.xib in Resources */,
 			);
